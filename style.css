@@ -1,0 +1,138 @@
+body {
+    background-image: url('images/flowers.jpeg');
+}
+.container.body {
+    border: 5px solid #ffffff;
+    background-color: #ffffff;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px 1px #2c2c2c;
+}
+.site {
+    text-align: left;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.logo img {
+    width: 150px;
+}
+.logo {
+    text-align: left;
+}
+.sitearea {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: left;
+}
+h4 {
+    font-size: 18px !important;
+}
+.header {
+    text-align: center;
+    color: #bd11e4;
+    
+}
+.container.header {
+    background: #bd11e4;
+    padding: 20px;
+    margin: 20px auto 0;
+}
+.header h1 {
+    color: #ffffff;
+    font-size: 52px;
+    line-height: 52px;
+    font-weight: bold;
+}
+.header p {
+    font-size: 22px;
+    margin: 0;
+    color: white;
+    font-style: italic;
+}
+.container.menuarea {
+    text-align: center;
+    margin: 20px 0;
+}
+nav#menuarea a {
+    padding: 10px;
+    background: #bd11e4;
+    color: #fff;
+    text-decoration: none;
+}
+nav#menuarea a:hover {
+    background: #1161e4;
+}
+.container.types {
+    background-color: #bd11e4;
+    padding: 20px;
+    margin: 25px 0;
+}
+.plan, .form {
+    text-align: center;
+}
+.plan h2, .form h2{
+    font-size: 22px;
+}
+.container.types a {
+    background: #000000;
+    padding: 10px;
+    text-decoration: none;
+    color:#ffffff;
+    border:none;
+}
+.container.types button {
+    margin: 30px 0;
+    height: unset;
+    background: #000000;
+    padding: 10px;
+    color: #ffffff;
+    border: none;
+    width: 100%;
+}
+.container.types button:hover {
+    background: #1161e4;
+    color: #ffffff;
+}
+.container.types a:hover {
+    background: #1161e4;
+    color: #ffffff;
+}
+.dropdown-content {
+    display: flex;
+    justify-content: space-around;
+}
+.btn-style-main {
+    width: 100%;
+    padding: 10px;
+    background: #000000;
+    color: #ffffff;
+    border:none;
+}
+.btn-style-main:hover {
+    background: #1161e4;
+}
+.col-6.venue_type, .col-6.event_type {
+    text-align: center;
+}
+h2 {
+    font-size: 20px !important;
+}
+.results-content {
+    text-align: center;
+}
+.container.results {
+    background: #eee;
+}
+.container.results .row {
+    background: #eee;
+    padding-top: 30px;
+}
+.container.results .col-4 .result {
+    background: #ddd;
+    padding: 20px;
+}
+.dates {
+    text-align: center;
+    padding: 30px 0;
+}
